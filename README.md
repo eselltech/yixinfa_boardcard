@@ -2,6 +2,13 @@
 
 > 以下是易信发的远程控制sdk使用说明（详细可参考例子）
 ---
+2019/8/9更新说明：现在插件的核心控制方法如果不复写，插件还是会发出默认广播。我们自己定义的广播。
+
+
+---
+
+
+
 ##### 第一步
 创建你的项目，applicationId必须是com.esell.boardcard.imp（也就是包名），不然易信发app找不到插件，加载不了句柄，也就无法远程控制。
 
@@ -9,7 +16,7 @@
 引入类库
 ```
 dependencies {
-    implementation 'com.esell.controller:yixinfa_boradcard:2.0.0'
+    implementation 'com.esell.controller:yixinfa_boradcard:2.0.1'
 }
 ```
 
