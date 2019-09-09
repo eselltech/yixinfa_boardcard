@@ -1,5 +1,5 @@
 *.iml
-*.js linguist-language=java
+*.html linguist-language=java
 .gradle
 /local.properties
 /.idea/caches
